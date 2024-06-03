@@ -1,0 +1,43 @@
+1-Mouse Events:
+
+    <Button-1>: Left mouse button click
+    <Button-2>: Middle mouse button click
+    <Button-3>: Right mouse button click
+    <Double-Button-1>: Left mouse button double-click
+    <Triple-Button-1>: Left mouse button triple-click
+    <B1-Motion>: Left mouse button motion (dragging)
+    <ButtonRelease-1>: Left mouse button release
+    <Enter>: Mouse pointer enters the widget's area
+    <Leave>: Mouse pointer leaves the widget's area
+
+2-Keyboard Events:
+
+    <KeyPress>: Any key press
+    <KeyPress-KeyPress>: Specific key press (e.g., <KeyPress-a> for the 'a' key)
+    <KeyRelease>: Any key release
+    <KeyRelease-KeyPress>: Specific key release (e.g., <KeyRelease-a> for the 'a' key)
+    <FocusIn>: Widget gains focus
+    <FocusOut>: Widget loses focus
+    <Return> or <KP_Enter>: Enter key press
+    <Tab>: Tab key press
+    <Shift-Up>: Shift key combined with Up arrow key press
+
+3-Window Events:
+
+    <Configure>: Window resize or move
+    <Destroy>: Window destruction
+
+4-Timer Events:
+
+    <Timer>: Timer event triggered after a specified time interval
+
+5-Virtual Events:
+
+    <VirtualEvent>: Custom virtual event triggered by the application
+
+6-Other Events:
+
+    <MouseWheel>: Mouse wheel scroll
+    <Motion>: Mouse motion (when the mouse is moved over the widget)
+    <Map>: Widget is mapped to the screen (usually after being created or deiconified)
+    <Unmap>: Widget is unmapped from the screen (usually after being iconified or destroyed)
